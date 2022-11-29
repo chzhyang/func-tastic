@@ -1,10 +1,10 @@
 specVersion: 0.35.0
-name: tensorflow-image-recognition
+name: test
 runtime: python
 registry: docker.io/chzhyang
 image: docker.io/chzhyang/tensorflow-image-recognition:latest
-imageDigest: ""
-created: 0001-01-01T00:00:00Z
+imageDigest: sha256:6a681d88e36b1c936fd06435c42f35afa8a28729922ba99acdfcaab3c7e1f03a
+created: 2022-11-29T04:30:01.595195403Z
 build:
   buildpacks: []
   builder: pack
@@ -13,8 +13,7 @@ run:
   volumes: []
   envs: []
 deploy:
-  namespace: ""
-  remote: false
+  namespace: default
   annotations: {}
   options: {}
   labels: []
