@@ -1,0 +1,23 @@
+specVersion: 0.35.0
+name: test
+runtime: python
+registry: docker.io/chzhyang
+image: docker.io/chzhyang/tensorflow-image-recognition:latest
+imageDigest: ""
+created: 2022-11-29T04:30:01.595195403Z
+build:
+  buildpacks: []
+  builder: ""
+  buildEnvs: []
+run:
+  volumes: []
+  envs: []
+deploy:
+  namespace: ""
+  remote: false
+  annotations: {}
+  options: {}
+  labels: []
+  healthEndpoints:
+    liveness: /health/liveness
+    readiness: /health/readiness
